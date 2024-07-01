@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 27vw;
+    height: 82vh;
+    background: rgb(106, 106, 106);
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5%;
+    border: .2rem groove black;
+    box-shadow: .5rem .5rem 2rem .5rem grey;
+}
+
+form input {
+    background: rgb(107, 161, 36);
+    height: 20vh;
+    margin-top: 6%;
+    margin-left: 5%;
+    width: 24.5vw;
+    border-radius: 10px;
+    color: white;
+    font-size: 34px;
+    /* border: none; */
+    text-align: rights;
+    /* z-index: 1; */
+    pointer-events: none;
+}
+
+.main .buttons {
+    position: absolute;
+    background: rgb(134, 130, 130);
+    border-radius: 10px;
+    height: 52vh;
+    width: 24vw;
+    margin-top: 15%;
+    margin-left: 1.5%;
+    display: table-cell;
+    padding: 2%;
+    border: .1rem dashed black;
+}
+
+.screen {
+    text-align: right;
+}
+
+.buttons button {
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    border-radius: 7px;
+    font-weight: 800;
+    /* padding: 2%; */
+    margin: .1rem .1rem .4rem .1rem;
+}
+
+.buttons .orange-btn {
+    background: orange;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons .orange-btn:hover {
+    background: rgb(217, 146, 13);
+}
+
+.buttons .l-grey-btn {
+    background: rgb(95, 93, 91);
+    color: white;
+}
+
+.buttons .l-grey-btn:hover {
+    background: rgb(69, 68, 66);
+}
+
+.buttons .btn-clear {
+    background: rgb(225, 14, 14);
+    color: white;
+}
+
+.buttons .btn-clear:hover {
+    background: rgb(200, 9, 9);
+}
+
+.buttons .btn-equal {
+    background: rgb(12, 231, 12);
+}
+
+.buttons .btn-equal:hover {
+    background: rgb(7, 205, 7);
+}
